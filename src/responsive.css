@@ -1,0 +1,155 @@
+@media only screen and (max-width: 769px) {
+
+  .button-check{
+    max-width: 146px;
+  }
+  .text-dashboard{
+    margin-left: 20px;
+  }
+
+  .card-cuti{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .card-jumlahhadir{
+    margin-right: 20px;
+  }
+
+  .text-hadir{
+    margin-left: 7px;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-size: 156px;
+    top: 10%;
+  }
+  .notfound h2 {
+    font-size: 30px;
+  }
+  .notfound p {
+    font-size: 12px;
+  }
+  .notfound a {
+    font-size: 10px;
+    padding: 10px 38px;
+  }
+
+  .navbar {
+    height: 60px !important;
+  }
+
+  .navbar-left,
+  .navbar-brand {
+    width: 100% !important;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .navbar-brand img {
+    height: 45px !important;
+  }
+   .navbar-right .nav-link.logout {
+    display: block !important; 
+  }
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .navbar-left,
+  .navbar-right {
+    flex: 1; 
+    display: flex;
+    align-items: center; 
+  }
+
+  .navbar-right {
+    justify-content: flex-end; 
+  }
+
+  .user-name{
+    display: none;
+  }
+  .user-status{
+    display: none;
+  }
+  .navbar-brand {
+    flex: 0 0 auto; 
+  }
+
+  .nav-link.logout{
+    display: none !important;
+  }
+  
+  .sidemenu-opener {
+    width: 45px;
+    height: 45px;
+    padding-top: 15px;
+  }
+
+  .login-card {
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .wide-screen {
+    display: none !important;
+  }
+  .narrow-screen {
+    display: flex !important;
+    width: 100%;
+    flex-flow: row;
+  }
+
+  .content {
+    padding: 20px 20px 80px 20px;
+  }
+  .container {
+    max-width: 769px;
+  }
+
+  .content>.card {
+    border: 0px;
+  }
+
+  .card-header {
+    border: 0px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .card-body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .btn-module {
+    border-radius: 5px;
+    min-height: 38px;
+    padding: 0.2rem 1rem;
+  }
+
+  .bottom-nav {
+    display: flex;
+  }
+
+  .app-content {
+    height: calc(100vh - 100px);
+  }
+
+}
+
+@media only screen and (max-width: 663px) {
+  .list-card-header {
+    flex-direction: column;
+  }
+  .left-flex, .right-flex {
+    margin-bottom: .5rem!important;
+    width: 100%;
+  }
+  .search-control {
+    width: 100%;
+  }
+}
